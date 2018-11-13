@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html>
+
+	<head>
+		<meta charset="UTF-8">
+		<title></title>
+		<script src="js/jquery.min.js" type="text/javascript"></script>
+		<style type="text/css">
+			body{
+				margin: 0;
+				overflow: hidden;
+			}
+			img {
+				width: 100%;
+			}
+			#visit-logo{
+				display: block;
+				z-index: 2;
+				height: 550px;
+				width: 400px; 
+				background: #FFFFFF;
+				position: absolute;
+				top: 100px;
+				right: 50%;
+				text-align: center;
+			}
+			#visit-logo img{
+				width: 350px;
+				position: relative;
+				top: 50%;
+				margin-top: -185px;
+			}
+			#visit-bg{
+				display: block;
+				z-index: 2;
+				height: 550px;
+				width: 400px; 
+				background: #B605FF;
+				position: absolute;
+				top: 100px;
+				left: 50%;
+				opacity: 0.8;
+			}
+			#visit-form{
+				z-index: 4;
+				height: 550px;
+				width:400px;
+				position: absolute;
+				top: 100px;
+				left: 50%;
+				text-align: center;
+				padding:50px 0px;
+			}
+			#visit-form input{
+				height: 40px;
+				width: 270px;
+			}
+			#visit-form textarea{
+				height: 120px;
+				width: 268px;
+				margin-left:5px;
+			}
+			#submit{
+				border: 1px solid #FFFFFF;
+				background-color: #B605FF;
+				text-align: center;
+				color:#FFFFFF ;
+			}
+			
+		</style>
+		<script type="text/javascript">
+			var curIndex = 0;
+			//时间间隔 单位毫秒
+			var timeInterval = 5000;
+			var arr = new Array();
+			arr[0] = "bg2.jpg";
+			arr[1] = "bg3.jpg";
+			arr[2] = "bg4.jpg";
+			arr[3] = "bg5.jpg";
+			setInterval(changeImg, timeInterval);
+
+			function changeImg() {
+				var obj = document.getElementById("obj");
+				if(curIndex == arr.length - 1) {
+					curIndex = 0;
+				} else {
+					curIndex += 1;
+				}
+				obj.src = "images/"+arr[curIndex];
+			}
+		</script>
+	</head>
+	<body>
+		<div id="" style="z-index: 1;">
+			<img id="obj" src="images/bg2.jpg"/>
+
+		</div>
+		<div id="visit-logo">
+			<img src="images/logo.gif" />
+		</div>
+		<div id="visit-bg"></div>
+		<div id="visit-form">
+			<font size="6" color="#FFFFFF" style="font-family:微软雅黑">欢迎预约参观</font><br /><br /><br />
+			<form action="" method="post">
+				<input type="text" name="name" id="name" value="" placeholder="请输入您的姓名" /><br /><br />
+				<input type="text" name="tel" id="tel" placeholder="请输入您的手机号码" /><br /><br />
+				<textarea placeholder="请备注您的特殊需求"></textarea>  <br /><br />
+				<input id="submit" type="submit" value="确认预约"/>
+			</form>
+		</div>
+		
+	</body>
+</html>

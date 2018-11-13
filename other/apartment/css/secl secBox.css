@@ -1,0 +1,11 @@
+/*****sec1*******/
+.secBox{padding:50px 0;}
+.secBox .secTitle{font-size: 28px;color:#ffc001;height:65px;text-align: center;background: url("../../images/p1.png") no-repeat center bottom;font-weight: bold;margin-bottom: 50px;}
+.sec1{}
+.sec1 ul{}
+.sec1 ul li{width:375px;margin-right: 20px;}
+.sec1 ul li .picBox{width:50px;}
+.sec1 ul li .picBox img{}
+.sec1 ul li .msgBox{width:325px;}
+.sec1 ul li .msgBox .p1{font-size: 24px;color:#000;font-weight: bold;margin-bottom: 15px;}
+.sec1 ul li .msgBox .p2{font-size: 14px;line-height: 25px;height:100px;overflow: hidden;}

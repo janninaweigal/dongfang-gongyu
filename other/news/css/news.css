@@ -1,0 +1,215 @@
+/*banner*/
+.n-banText {
+	position: absolute;
+	left: 8%;
+	top: 45%;
+	bottom: 35%;
+	z-index: 10;
+	color:#FFFFFF;
+}
+
+/*导航*/
+.n-index{
+	border-top:1px solid #EEEEEE;
+	font-size: 17px;
+	color: #8C8C8C;
+	font-family: 黑体;
+}
+.n-index span{
+	margin-left:9%;
+}
+.n-index a{
+	color: #8C8C8C;
+}
+.n-index a:hover{
+	color: #b605ff;
+	font-weight: bold;
+}
+/*日期样式*/
+.date{
+	display: block;
+	margin-top: 13px ;
+}
+/*新闻简介*/
+.introduce{
+	display: block;
+	margin: 18px auto;
+	color: #8C8C8C;
+}
+/*新闻列表*/
+.news-item{
+	margin-top: 20px
+}
+.newsitem-img-larger{
+	transition: all 0.9s;
+	transform: scale(1.06);
+}
+.newsitem-img-smaller{
+	transition: all 0.9s;
+	transform: scale(1);
+}
+.news-title{
+	font-weight:bold;
+	color: #b605ff;
+}
+.yuedu{
+	font-weight: bold;
+	color: #b605ff;
+}
+/*页码*/
+.page{
+	width: 100%;
+	text-align: center;
+	position:relative;
+}
+.page ul{
+	display: block;
+	height: 35px;
+	width: 816px;
+	margin: 0 auto;
+    position: relative;
+}
+.page a{
+	display: block;
+	float: left;
+	width: 36px;
+	height: 36px;
+	line-height: 36px;
+	font-size: 15px;
+	color: #888888;
+	align-content: center;
+}
+.page a:hover{
+	color: #b605ff;
+}
+.pagenum{
+	
+}
+.pagenum a:hover{
+	color: #FFFFFF;
+	background-color: #b605ff;
+}
+/*新闻详情页面*/
+/*日期-浏览次数*/
+.date-watched{
+	height: 40px;
+	line-height: 40px;
+	background-color: #f5f5f5;
+	color: #8C8C8C;
+}
+.news-detail{
+	margin: 1% 5%; text-align: center;
+}
+.news-detail-main{
+	text-align: left;
+	color: #8C8C8C;
+}
+.news-detail-main-img{
+	text-align: center;
+	width:100%;
+}
+.news-detail-main-img img{
+	width: 85%;
+}
+.news-detail-main p{
+	text-indent: 2em;
+	font-size: 20px;
+	padding: 10px;
+}
+.news-detail-main-img p{
+	text-indent: 0em;
+}
+/*分享模块*/
+.share{
+	text-align: center;
+}
+.share a{
+	display: inline-block;
+	vertical-align:middle;
+	width: 42px;
+	height: 42px;
+	background: url(../images/shareIco.png) no-repeat;
+	transition: all 0.3s ease-out 0s;
+}
+.share a.shareIco1{
+	background-position:0 0;
+}
+.share a.shareIco2{
+	background-position:-42px 0;
+}
+.share a.shareIco3{
+	background-position:-84px 0;
+}
+.share a.shareIco4{
+	background-position:-126px 0;
+}
+.share a.shareIco5{
+	background-position:-168px 0;
+}
+.share a.shareIco1:hover{
+	background-position:0 -42px;
+}
+.share a.shareIco2:hover{
+	background-position:-42px -42px;
+}
+.share a.shareIco3:hover{
+	background-position:-84px -42px;
+}
+.share a.shareIco4:hover{
+	background-position:-126px -42px;
+}
+.share a.shareIco5:hover{
+	background-position:-168px -42px;
+}
+/*新闻详情页上下页模块*/
+.LNpage-div{
+	width: 100%;
+	height: auto;
+	text-align: center;
+	position: relative;
+	margin: 1% auto;
+}
+.LNpage-div hr{
+	margin-top: 0px;
+	margin-bottom: 0px;
+}
+.LNpage-Reindex{
+	display: block;
+	width: 72px;
+	height: 72px;
+	background: #b605ff;
+	position: relative;
+	left: 50%;
+	margin-left: -34px;
+	padding: 27px 0 0;
+}
+.LNpage-Reindex span{
+	display: block;
+	width: 20px;
+	height: 2px;
+	background-color: #FFFFFF;
+	margin: 3px auto;
+}
+.LNpage-Last{
+	display: block;
+	position: relative;
+	left: 16%;
+	margin-top: 5%;
+	margin-bottom: 5%;
+	margin-left: -36px;
+	text-align: left;
+}
+.LNpage-Next{
+	display: block;
+	position: relative;
+	left: 10%;
+	margin-top: 5%;
+	margin-left: -36px;
+	text-align: center
+}
+.LNpage-Last:hover{
+	color: #b605ff;
+}
+.LNpage-Next:hover{
+	color:#b605ff ;
+}

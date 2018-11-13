@@ -1,0 +1,464 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>天津市第一老年公寓</title>
+    <script src="js/jquery.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <link rel="stylesheet" href="css/bootstrap.min.css" />
+    <link rel="stylesheet" href="css/iconfont.css" />
+    <link rel="stylesheet" href="css/main.css" />
+</head>
+<body>
+    <!--导航 start-->
+    <header>
+       <nav class="navbar navbar-default navbar-fixed-top">
+            <div class="container-fluid">
+                <div class="navbar-header">
+                    <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-8" aria-expanded="false">
+                        <span class="sr-only">Toggle navigation</span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                    </button>
+                    <a class="navbar-brand" href="#">天津市第一老年公寓</a>
+                </div>
+
+                <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-8">
+                    <ul class="nav navbar-nav">
+                        <li class="active"><a href="#"><span>首页</span></a></li>
+                        <li>
+                            <a href="other/travel/travel.html" class="dropdown-toggle liaoyang" data-toggle="dropdown"><span>疗养服务</span></a>
+                            <ul class="dropdown-menu">
+                                <li><a href="other/travel/travel.html">旅居疗养</a></li>
+                                <li><a href="other/activity/index.html">活力社区</a></li>
+                                <li>
+                                    <a href="other/product/pro-jiankangjiance.html" class="jujia">居家康复<span class="pull-right"><span class="glyphicon glyphicon-menu-right"></span></span></a>
+                                    <ul class="dropdown-menu" style="display:none;border-radius:0px;top:90px;left:146px;">
+                                        <li><a href="other/product/pro-jiankangjiance.html">健康监测</a></li>
+                                        <li><a href="other/product/pro-jujia.html">居家康复</a></li>
+                                        <li><a href="other/product/pro-jujiahuli.html">居家护理</a></li>
+                                        <li><a href="other/product/pro-jiatingyisheng.html">家庭医生</a></li>
+                                    </ul>
+                                </li>
+                                <li>
+                                    <a href="other/product/pro-shuhou.html" class="yangsheng">养生康复<span class="pull-right"><span class="glyphicon glyphicon-menu-right"></span></span></a>
+                                    <ul class="dropdown-menu" style="display:none;border-radius:0px;top:130px;left:146px;">
+                                        <li><a href="other/product/pro-shuhou.html">术后康复</a></li>
+                                        <li><a href="other/product/pro-zhongyi.html">中医调养</a></li>
+                                        <li><a href="other/product/pro-xiju.html">戏剧治疗</a></li>
+                                        <li><a href="other/product/pro-yinyue.html">音乐治疗</a></li>
+                                    </ul>
+                                </li>
+                            </ul>
+                        </li>
+                        <li>
+                            <a href="other/news/news.html" class="dropdown-toggle" data-toggle="dropdown"><span>新闻动态</span></a>
+                            <ul class="dropdown-menu">
+                                <li><a href="other/news/news.html">新闻中心</a></li>
+                                <li><a href="other/news/news-self.html">本院动态</a></li>
+                            </ul>
+                        </li>
+                        <li>
+                            <a href="other/apartment/home.html" class="dropdown-toggle" data-toggle="dropdown"><span>老年公寓</span></a>
+                            <ul class="dropdown-menu">
+                                <li><a href="other/apartment/home.html">新院落</a></li>
+                                <li><a href="other/apartment/server.html">服务宗旨</a></li>
+                            </ul>
+                        </li>
+                        <li>
+                            <a href="other/contact/index.html" class="dropdown-toggle" data-toggle="dropdown"><span>联系我们</span></a>
+                            <ul class="dropdown-menu">
+                                <li><a href="other/contact/index.html">联系方式</a></li>
+                            </ul>
+                        </li>
+                    </ul>
+
+                </div>
+
+                <div class="iconRig">
+                    <!--login register-->
+                    <ul>
+                        <li><a href="other/news/news-visit.html" target="_blank"><span class="glyphicon glyphicon-earphone"></span> 预约参观</a></li>
+                        <li><a href="#mymodal1" id="register" onclick="return false;"><span class="glyphicon glyphicon-user"></span> 注册</a></li>
+                        <li><a href="#mymodal" id="login" onclick="return false;"><span class="glyphicon glyphicon-log-in"></span> 登录</a></li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+    </header>
+    <!--end 导航-->
+
+    <!--轮播图 start-->
+    <div class="banner">
+        <div id="carousel-example-generic" class="carousel slide" data-ride="carousel">
+            <!-- Indicators -->
+            <ol class="carousel-indicators">
+                <li data-target="#carousel-example-generic" data-slide-to="0" class="active"></li>
+                <li data-target="#carousel-example-generic" data-slide-to="1"></li>
+                <li data-target="#carousel-example-generic" data-slide-to="2"></li>
+            </ol>
+
+            <!-- Wrapper for slides -->
+            <div class="carousel-inner" role="listbox">
+                <div class="item active">
+                    <img src="images/banner.JPG"  alt="让老人满意在我院">
+                    <div class="banText">
+                        <h3>创造人人向往的老年生活</h3>
+                        <i class="banLine"></i>
+                        <div class="banBrief">
+                            <p>
+                                养老院宗旨：精神文化养老。<br/>
+                                养老院服务宗旨：让老人满意在我院。
+                            </p>
+                        </div>
+                        <a href="other/apartment/server.html" class="banMore">了解更多&nbsp;&nbsp;<i class="iconfont icon-lejiegengduo"></i></a>
+                    </div>
+                </div>
+                <div class="item">
+                    <img src="images/banner1.JPG"  alt="让老人满意在我院">
+                    <div class="banText">
+                        <h3>创造人人向往的老年生活</h3>
+                        <i class="banLine"></i>
+                        <div class="banBrief">
+                            <p>
+                                养老院宗旨：精神文化养老。<br/>
+                                养老院服务宗旨：让老人满意在我院。
+                            </p>
+                        </div>
+                        <a href="other/apartment/server.html" class="banMore">了解更多&nbsp;&nbsp;<i class="iconfont icon-lejiegengduo"></i></a>
+                    </div>
+                </div>
+                <div class="item">
+                    <img src="images/banner2.JPG" alt="让老人满意在我院">
+                    <div class="banText">
+                        <h3>创造人人向往的老年生活</h3>
+                        <i class="banLine"></i>
+                        <div class="banBrief">
+                            <p>
+                                养老院宗旨：精神文化养老。<br/>
+                                养老院服务宗旨：让老人满意在我院。
+                            </p>
+                        </div>
+                        <a href="other/apartment/server.html" class="banMore">了解更多&nbsp;&nbsp;<i class="iconfont icon-lejiegengduo"></i></a>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Controls -->
+            <a class="left carousel-control" href="#carousel-example-generic" role="button" data-slide="prev">
+                <span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
+                <span class="sr-only">Previous</span>
+            </a>
+            <a class="right carousel-control" href="#carousel-example-generic" role="button" data-slide="next">
+                <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
+                <span class="sr-only">Next</span>
+            </a>
+        </div>
+    </div>
+    <!--end 轮播图-->
+
+    <!--中间内容 start-->
+    <section>
+        <div class="container-fluid">
+            <!--简介-->
+            <div class="row-fluid">
+                <div class="col-md-6">
+                    <center>
+                        <img src="images/logo1.jpg" class="img-responsive">
+                    </center>
+                </div>
+                <div class="col-md-6">
+                    <!--<div class="jumbotron">-->
+                        <h1 style="text-align:center;">简介</h1>
+                        <p class="lead" style="text-indent:2em;">天津市退休职工养老院（暨天津市第一老年公寓）始建于1958年，是一家国办养老福利事业单位。坐落在卫津南路48号，西靠风景如画的水上公园，北眺高耸入云的天塔，南接奥林匹克中心，东临环湖医院。环境幽雅，风景宜人，医疗方便，是老年人颐养休闲的乐园。        天津市退休职工养老院公寓楼主体建筑七层，是按照国家《老年建筑规范》设计的，为透天阳光板回廊式建筑风格。楼内设施齐全，根据功能划分为老人居住区、综合文化区、多功能服务区、健身活动区、休闲娱乐区等。居住区按老人不同需求设有标准间和高档套间，室内家具、家电一应俱全，并配有呼叫系统，方便为老人提供服务。综合文化区拥有图书1200册，供老人借阅。多功能服务区内配有先进电脑投影仪，可为老人放映戏曲、电影、卡拉OK等，宽敞的大厅更可接待外来团体演出。健身活动区的台球、乒乓球、沙壶球、健身器材等，让老人的生活丰富多彩。为体现院内的人性化服务，特将休闲娱乐区分布在各个楼层，书画室、棋牌室，便于老人娱乐消遣。LED显示屏不断滚动播出，温馨提示、近期工作、安全服务、天气预报、保健常识等，进一步增加了院务公开的透明度。院内新增设的书画文化墙，更大程度丰富了老人们的精神生活。</p>
+                    <!--</div>-->
+                </div>
+            </div>
+            <!--新院落-->
+            <div class="row">
+                <div class="page-header" style="margin-left:15px;">
+                    <h1>新院落 <small>外观&nbsp;养护中心&nbsp;住房中心&nbsp;旧楼改造</small></h1>
+                </div>
+                <div class="col-sm-6 col-md-3">
+                    <div class="thumbnail">
+                        <img src="images/thumb1.jpg" alt="新院落外观" width="100%">
+                        <div class="caption">
+                            <h3>新院落外观</h3>
+                            <p>带着古典气息的长廊以及小巧美观的喷泉洋溢着安心的气息...</p>
+                            <p><a href="other/apartment/home.html" class="btn btn-primary" role="button">了解更多<span class="glyphicon glyphicon-leaf"></span></a></p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-sm-6 col-md-3">
+                    <div class="thumbnail">
+                        <img src="images/thumb3.jpg" alt="住房中心" width="100%">
+                        <div class="caption">
+                            <h3>住房中心</h3>
+                            <p>整个房间的布局以暖色为基调，家具都有配套，给人温暖的感觉</p>
+                            <p><a href="other/apartment/home.html" class="btn btn-primary" role="button">了解更多<span class="glyphicon glyphicon-home"></span></a></p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-sm-6 col-md-3">
+                    <div class="thumbnail">
+                        <img src="images/thumb2.jpg" alt="养护中心" width="100%">
+                        <div class="caption">
+                            <h3>养护中心</h3>
+                            <p>给老人提供多种室内外活动</p>
+                            <p><a href="other/apartment/home.html" class="btn btn-primary" role="button">了解更多<span class="glyphicon glyphicon-tree-conifer"></span></a></p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-sm-6 col-md-3">
+                    <div class="thumbnail">
+                        <img src="images/thumb4.jpg" alt="旧楼改造" width="100%">
+                        <div class="caption">
+                            <h3>旧楼改造</h3>
+                            <p>有充足的阳光，屋内外都是暖色的。</p>
+                            <p><a href="other/apartment/home.html" class="btn btn-primary" role="button">了解更多<span class="glyphicon glyphicon-tree-conifer"></span></a></p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!--新闻动态-->
+            <div class="row">
+                <div class="box1Tit">
+                    <h2 class="box1H2">
+                        <span>新闻动态</span>
+                    </h2>
+                </div>
+                <div class="col-md-3 col-sm-6">
+                    <div class="box1List">
+                        <a href="other/news/news.html">
+                            <div class="box1Img">
+                                <img src="images/tit1.jpg" class="img-responsive">
+                            </div>
+                            <div class="box1Price">北京晚报</div>
+                            <div class="box1Text">
+                                <h3 class="box1H3 ellipsis">北京共有产权房养老试水 143套被认购</h3>
+                                <div class="box1Brief">
+                                    <p class="ellipsis">千龙网北京12月12日讯（记者 秦胜南）老人与养老服务企业共有产权，既能实现医养结合又能享受文化娱乐养老公共设施，这种共有产权的集中式居家养老模式在北京已初见成效。12日，记者从北京市民政局获悉，北京唯一一个集中式居家养老社区试点项目——朝阳区的恭和家园，日前正式竣工并投入运行。首批认购143套，已选择入住的老年人30%以上来自东城区和西城区。</p>
+                                </div>
+                            </div>
+                        </a>
+                    </div>
+                </div>
+                <div class="col-md-3 col-sm-6">
+                    <div class="box1List">
+                        <a href="other/news/news.html">
+                            <div class="box1Img">
+                                <img src="images/tit1.jpg" class="img-responsive">
+                            </div>
+                            <div class="box1Price">北京晚报</div>
+                            <div class="box1Text">
+                                <h3 class="box1H3 ellipsis">北京共有产权房养老试水 143套被认购</h3>
+                                <div class="box1Brief">
+                                    <p class="ellipsis">千龙网北京12月12日讯（记者 秦胜南）老人与养老服务企业共有产权，既能实现医养结合又能享受文化娱乐养老公共设施，这种共有产权的集中式居家养老模式在北京已初见成效。12日，记者从北京市民政局获悉，北京唯一一个集中式居家养老社区试点项目——朝阳区的恭和家园，日前正式竣工并投入运行。首批认购143套，已选择入住的老年人30%以上来自东城区和西城区。</p>
+                                </div>
+                            </div>
+                        </a>
+                    </div>
+                </div>
+                <div class="col-md-3 col-sm-6">
+                    <div class="box1List">
+                        <a href="other/news/news.html">
+                            <div class="box1Img">
+                                <img src="images/tit1.jpg" class="img-responsive">
+                            </div>
+                            <div class="box1Price">北京晚报</div>
+                            <div class="box1Text">
+                                <h3 class="box1H3 ellipsis">北京共有产权房养老试水 143套被认购</h3>
+                                <div class="box1Brief">
+                                    <p class="ellipsis">千龙网北京12月12日讯（记者 秦胜南）老人与养老服务企业共有产权，既能实现医养结合又能享受文化娱乐养老公共设施，这种共有产权的集中式居家养老模式在北京已初见成效。12日，记者从北京市民政局获悉，北京唯一一个集中式居家养老社区试点项目——朝阳区的恭和家园，日前正式竣工并投入运行。首批认购143套，已选择入住的老年人30%以上来自东城区和西城区。</p>
+                                </div>
+                            </div>
+                        </a>
+                    </div>
+                </div>
+                <div class="col-md-3 col-sm-6">
+                    <div class="box1List">
+                        <a href="other/news/news.html">
+                            <div class="box1Img">
+                                <img src="images/tit1.jpg" class="img-responsive">
+                            </div>
+                            <div class="box1Price">北京晚报</div>
+                            <div class="box1Text">
+                                <h3 class="box1H3 ellipsis">北京共有产权房养老试水 143套被认购</h3>
+                                <div class="box1Brief">
+                                    <p class="ellipsis">千龙网北京12月12日讯（记者 秦胜南）老人与养老服务企业共有产权，既能实现医养结合又能享受文化娱乐养老公共设施，这种共有产权的集中式居家养老模式在北京已初见成效。12日，记者从北京市民政局获悉，北京唯一一个集中式居家养老社区试点项目——朝阳区的恭和家园，日前正式竣工并投入运行。首批认购143套，已选择入住的老年人30%以上来自东城区和西城区。</p>
+                                </div>
+                            </div>
+                        </a>
+                    </div>
+                </div>
+            </div>
+            <!--活力社区-->
+            <div class="row">
+                <div class="page-header" style="margin-left:15px;">
+                    <h1>活力社区 <small>公寓活动&nbsp;老年人的活动</small></h1>
+                </div>
+                <div class="col-md-6 col-sm-6">
+                    <img src="images/sq.jpg" class="img-responsive"/>
+                </div>
+                <div class="col-md-6 col-sm-6">
+                    <div>
+                        <h4 class="box2Name">活力社区</h4>
+                        <h5 class="box2Brief"><span>公寓活动&nbsp;老年人的活动</span></h5>
+                        <div class="box2Text"><p>天津市退休职工养老院公寓楼主体建筑七层，是按照国家《老年建筑规范》设计的，为透天阳光板回廊式建筑风格。楼内设施齐全，根据功能划分为老人居住区、综合文化区、多功能服务区、健身活动区、休闲娱乐区等。居住区按老人不同需求设有标准间和高档套间，室内家具、家电一应俱全，并配有呼叫系统，方便为老人提供服务。综合文化区拥有图书1200册，供老人借阅。</p><p>咨询电话：02223913420|02224520225</p></div>
+                        <a class="boxMore" target="_blank" href="other/activity/index.html">更多&nbsp;&nbsp;<i class="iconfont icon-lejiegengduo"></i></a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!--end 中间内容-->
+
+    <!--页脚 start-->
+    <footer class="footerBg">
+        <div class="footTop">
+            <div class="boxWrap">
+                <div class="footTopCon">
+                    <div class="footRig">
+                        <div class="footLogo">
+                            <img src="images/logo.jpg" dclass="img-responsive">
+                        </div>
+                        <div class="footRigCen">
+                            <ul class="followus">
+                                <li><a href="#" onclick="return false;"><i class="iconfont icon-qq"></i></a></li>
+                                <li><a href="#" onclick="return false;"><i class="iconfont icon-xinlang"></i></a></li>
+                                <li><a href="#" onclick="return false;"><i class="iconfont icon-weixin"></i></a></li>
+                            </ul>
+                            <p class="fTel">02223913420|02224520225</p>
+                        </div>
+                        <p>南开区体育中心街卫津南路48号</p>
+                    </div>
+                    <div class="footLef">
+                        <ul class="footLefLink">
+                            <li>
+                                <h3><a href="other/travel/travel.html" target="_self" class="ellipsis">疗养服务</a></h3>
+                                <div class="footLi">
+                                    <p><a href="other/travel/travel.html" target="_self" class="ellipsis">旅居疗养</a></p>
+                                    <p><a href="other/activity/index.html" target="_self" class="ellipsis">活力社区</a></p>
+                                    <p><a href="other/product/pro-jiankangjiance.html" target="_self" class="ellipsis">居家康复</a></p>
+                                    <p><a href="other/product/pro-shuhou.html" target="_self" class="ellipsis">养生康复</a></p>
+                                </div>
+                            </li>
+                            <li>
+                                <h3><a href="other/news/news.html" target="_self" class="ellipsis">新闻动态</a></h3>
+                                <div class="footLi">
+                                    <p><a href="other/news/news.html" target="_self" class="ellipsis">新闻中心</a></p>
+                                    <p><a href="other/news/news-self.html" target="_self" class="ellipsis">本院动态</a></p>
+                                </div>
+                            </li>
+                            <li>
+                                <h3><a href="other/apartment/home.html" target="_self" class="ellipsis">老年公寓</a></h3>
+                                <div class="footLi">
+                                    <p><a href="other/apartment/home.html" target="_self" class="ellipsis">新院落</a></p>
+                                    <p><a href="other/apartment/server.html" target="_self" class="ellipsis">服务宗旨</a></p>
+                                </div>
+                            </li>
+                            <li>
+                                <h3><a href="other/contact/index.html" target="_self" class="ellipsis">联系我们</a></h3>
+                                <div class="footLi">
+                                    <p><a href="other/contact/index.html" target="_self" class="ellipsis">联系方式</a></p>
+                                </div>
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="clear"></div>
+                </div>
+            </div>
+        </div>
+        <div class="footBot">
+            <p>东方标准2018 大前端 实训两周 效果展示</p>
+        </div>
+    </footer>
+    <!--end 页脚-->
+
+    <!--返回顶部-->
+    <div class="xiangshang" id="xiangshang" title="返回顶部"></div>
+    <!--登录-->
+    <div id="mymodal" class="modal fade"  tabindex="-1">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+                    <h4 class="modal-title text-center">用户登录</h4>
+                </div>
+                <div class="modal-body">
+                    <form role="form" name="loginForm">
+                        <div class="form-group">
+                            <label for="uname">用户名</label>
+                            <div class="input-group">
+                                <span class="input-group-addon"><span class="glyphicon glyphicon-user"></span></span>
+                                <input type="text" class="form-control" id="uname" name="uname" placeholder="请输入用户名" required/>
+                            </div>
+                        </div>
+                        <div class="form-group">
+                            <label for="upass">密码</label>
+                            <div class="input-group">
+                                <span class="input-group-addon" id="basic-addon2"><span class="glyphicon glyphicon-asterisk"></span></span>
+                                <input type="password" class="form-control" id="upass" name="upass" placeholder="请输入密码" required/>
+                            </div>
+                        </div>
+                        <div class="form-button-group">
+                            <button type="button" class="btn btn-primary btn-block" id="login1" disabled="disabled">登录</button>
+                        </div>
+                    </form>
+                </div>
+            </div><!-- /.modal-content -->
+        </div><!-- /.modal-dialog -->
+    </div><!-- /.modal -->
+    <!--注册-->
+    <div id="mymodal1" class="modal fade"  tabindex="-1">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+                    <h4 class="modal-title text-center">用户注册</h4>
+                </div>
+                <div class="modal-body">
+                    <form role="form" name="registerForm">
+                        <div class="form-group">
+                            <label for="uname1">用户名</label>
+                            <div class="input-group">
+                                <span class="input-group-addon"><span class="glyphicon glyphicon-user"></span></span>
+                                <input type="text" class="form-control" id="uname1" name="uname1" placeholder="请输入用户名" autocomplete="off"/>
+                            </div>
+                        </div>
+                        <div class="form-group">
+                            <label for="upass1">密码</label>
+                            <div class="input-group">
+                                <span class="input-group-addon"><span class="glyphicon glyphicon-asterisk"></span></span>
+                                <input type="password" class="form-control" id="upass1" name="upass1" autocomplete="off" placeholder="请输入密码"/>
+                            </div>
+                        </div>
+                        <!--has-success   has-error-->
+                        <div class="form-group">
+                            <label for="passConfirm">确认密码</label>
+                            <div class="input-group">
+                                <span class="input-group-addon"><span class="glyphicon glyphicon-asterisk"></span></span>
+                                <input type="password" class="form-control" id="passConfirm" name="passConfirm" autocomplete="off" placeholder="请再次输入密码"/>
+                            </div>
+                        </div>
+                        <div class="form-group">
+                            <label for="email">邮箱</label>
+                            <div class="input-group">
+                                <span class="input-group-addon"><span class="glyphicon glyphicon-envelope"></span></span>
+                                <input type="email" class="form-control" id="email" name="email" autocomplete="off" placeholder="请输入邮箱"/>
+                            </div>
+                        </div>
+                        <div class="form-button-group">
+                            <button type="button" class="btn btn-primary btn-block" id="register1" disabled="disabled">注册</button>
+                        </div>
+                    </form>
+                </div>
+            </div><!-- /.modal-content -->
+        </div><!-- /.modal-dialog -->
+    </div><!-- /.modal -->
+    <script src="js/main.js"></script>
+</body>
+</html>

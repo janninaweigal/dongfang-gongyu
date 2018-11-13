@@ -1,0 +1,423 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>老年公寓</title>
+    <script src="../../js/jquery.min.js"></script>
+    <script src="../../js/bootstrap.min.js"></script>
+    <link rel="stylesheet" href="../../css/bootstrap.min.css" />
+    <link rel="stylesheet" href="../../css/iconfont.css" />
+    <link rel="stylesheet" href="../../css/main.css" />
+
+
+    <link href="css/font-awesome.css" rel="stylesheet">
+    <link href="css/animate.css" rel="stylesheet">
+    <link href="css/bootsnav.css" rel="stylesheet">
+    <link href="css/swiper.min.css" rel="stylesheet">
+    <link href="css/jquery.mCustomScrollbar.css" rel="stylesheet" type="text/css">
+    <link href="css/style.css" rel="stylesheet">
+    <script src="js/prefixfree.min.js"></script>
+    <script src="js/bootsnav.js"></script>
+    <script src="js/swiper.min.js"></script>
+    <script src="js/swiper.animate1.0.2.min.js"></script>
+    <script src="js/public.js"></script>
+    <script src="js/wow.min.js"></script>
+    <script>
+        var wow = new WOW({
+            boxClass: 'wow',
+            animateClass: 'animated',
+            offset: 0,
+            mobile: false,
+            live: true
+        });
+        wow.init();
+    </script>
+    <!--[if lt IE 9]>
+    <script src="/js/html5shiv.min.js"></script>
+    <script src="/js/respond.min.js"></script>
+<![endif]-->
+
+    <script src="js/share.js"></script>
+    <link href="css/share.css " rel="styleSheet " type="text/css ">
+</head>
+<body>
+   <header>
+       <nav class="navbar navbar-default navbar-fixed-top">
+            <div class="container-fluid">
+                <div class="navbar-header">
+                    <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-8" aria-expanded="false">
+                        <span class="sr-only">Toggle navigation</span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                    </button>
+                    <a class="navbar-brand" href="../../index.html">天津市第一老年公寓</a>
+                </div>
+
+                <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-8">
+                    <ul class="nav navbar-nav">
+                        <li><a href="../../index.html"><span>首页</span></a></li>
+                        <li>
+                            <a href="../travel/travel.html" class="dropdown-toggle liaoyang" data-toggle="dropdown"><span>疗养服务</span></a>
+                            <ul class="dropdown-menu">
+                                <li><a href="../travel/travel.html">旅居疗养</a></li>
+                                <li><a href="../activity/index.html">活力社区</a></li>
+                                <li>
+                                    <a href="../product/pro-jiankangjiance.html" class="jujia">居家康复<span class="pull-right"><span class="glyphicon glyphicon-menu-right"></span></span></a>
+                                    <ul class="dropdown-menu" style="display:none;border-radius:0px;top:90px;left:146px;">
+                                        <li><a href="../product/pro-jiankangjiance.html">健康监测</a></li>
+                                        <li><a href="../product/pro-jujia.html">居家康复</a></li>
+                                        <li><a href="../product/pro-jujiahuli.html">居家护理</a></li>
+                                        <li><a href="../product/pro-jiatingyisheng.html">家庭医生</a></li>
+                                    </ul>
+                                </li>
+                                <li>
+                                    <a href="../product/pro-shuhou.html" class="yangsheng">养生康复<span class="pull-right"><span class="glyphicon glyphicon-menu-right"></span></span></a>
+                                    <ul class="dropdown-menu" style="display:none;border-radius:0px;top:130px;left:146px;">
+                                        <li><a href="../product/pro-shuhou.html">术后康复</a></li>
+                                        <li><a href="../product/pro-zhongyi.html">中医调养</a></li>
+                                        <li><a href="../product/pro-xiju.html">戏剧治疗</a></li>
+                                        <li><a href="../product/pro-yinyue.html">音乐治疗</a></li>
+                                    </ul>
+                                </li>
+                            </ul>
+                        </li>
+                        <li>
+                            <a href="../news/news.html" class="dropdown-toggle" data-toggle="dropdown"><span>新闻动态</span></a>
+                            <ul class="dropdown-menu">
+                                <li><a href="../news/news.html">新闻中心</a></li>
+                                <li><a href="../news/news-self.html">本院动态</a></li>
+                            </ul>
+                        </li>
+                        <li class="active">
+                            <a href="home.html" class="dropdown-toggle" data-toggle="dropdown"><span>老年公寓</span></a>
+                            <ul class="dropdown-menu">
+                                <li><a href="home.html">新院落</a></li>
+                                <li><a href="server.html">服务宗旨</a></li>
+                            </ul>
+                        </li>
+                        <li>
+                            <a href="../contact/index.html" class="dropdown-toggle" data-toggle="dropdown"><span>联系我们</span></a>
+                            <ul class="dropdown-menu">
+                                <li><a href="../contact/index.html">联系方式</a></li>
+                            </ul>
+                        </li>
+                    </ul>
+
+                </div>
+
+                <div class="iconRig">
+                    <!--login register-->
+                    <ul>
+                        <li><a href="../news/news-visit.html" target="_blank"><span class="glyphicon glyphicon-earphone"></span> 预约参观</a></li>
+                        <li><a href="#mymodal1" id="register" onclick="return false;"><span class="glyphicon glyphicon-user"></span> 注册</a></li>
+                        <li><a href="#mymodal" id="login" onclick="return false;"><span class="glyphicon glyphicon-log-in"></span> 登录</a></li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+    </header>
+		<!--
+    	作者：yangyunzhen
+    	时间：2018-01-06
+    	描述：老年公寓首页
+    -->
+		
+
+		<div class="swiper-wrapper">
+			<div class="swiper-slide">
+				<img src="img/xingongyu/yuan.jpg" id="ctl00_ContentPlaceHolder1_pic" class="img-responsive">
+			</div>
+		</div>
+
+		<div class="ghyTit text-center">
+			<h2 class="wow fadeInLeft animated" style="visibility: visible;">
+        <span>
+            新院落
+        </span>
+    </h2>
+			<p class="text-uppercase wow fadeInRight animated" style="visibility: visible;">
+				THE NEW APARTMENT
+			</p>
+		</div>
+
+		<div class="ghyText text-center wow fadeInUp animated" style="visibility: visible;">
+			<p style="padding: 0px; text-align: center; color: rgb(102, 102, 102); font-size: 14px; margin-top: 0px; margin-bottom: 0px; white-space: normal; box-sizing: border-box; background-color: rgb(255, 255, 255);">
+				新院落是老人公寓近期新改造的，地处卫津南路48号。融合医疗、护理和社区化生活配套，为老人提供生活照护、营养配餐、保健医疗、康复调理、修身养心等全方位、多维度的高品质照护服务。
+			</p>
+			<p style="padding: 0px; text-align: center; color: rgb(102, 102, 102); font-size: 14px; margin-top: 0px; margin-bottom: 0px; white-space: normal; box-sizing: border-box; background-color: rgb(255, 255, 255);">
+				贴近医疗资源，便于就医保健，守护住户健康；
+			</p>
+			<p style="padding: 0px; text-align: center; color: rgb(102, 102, 102); font-size: 14px; margin-top: 0px; margin-bottom: 0px; white-space: normal; box-sizing: border-box; background-color: rgb(255, 255, 255);">
+				贴近子女亲朋，方便探访，有利于住户与子女朋友间的亲情交流；
+			</p>
+			<p style="padding: 0px; text-align: center; color: rgb(102, 102, 102); font-size: 14px; margin-top: 0px; margin-bottom: 0px; white-space: normal; box-sizing: border-box; background-color: rgb(255, 255, 255);">
+				贴近成熟社区生活，延续社会交往，促进住户的社会参与，让住户享受丰富多彩的人文生活；
+			</p>
+			<p style="padding: 0px; text-align: center; color: rgb(102, 102, 102); font-size: 14px; margin-top: 0px; margin-bottom: 0px; white-space: normal; box-sizing: border-box; background-color: rgb(255, 255, 255);">
+				新院落较原来相比，整体布局更加美观，设施配备较为齐全，交通便利，为老人们生活提供了更好更舒适的环境！
+			</p>
+			<p>
+				<br>
+			</p>
+		</div>
+
+		<div class="ghyTit text-center">
+			<h2 class="wow fadeInLeft animated" style="visibility: visible;">
+        <span>
+            新院落布局
+        </span>
+    </h2>
+			<p class="text-uppercase wow fadeInRight animated" style="visibility: visible;">
+				NEW APARTMENT LAYOUT
+			</p>
+		</div>
+		<div class="ghyText text-center wow fadeInUp animated" style="visibility: visible;">
+			<p>
+				<span style="text-align: center; color: rgb(102, 102, 102); font-size: 14px; background-color: rgb(255, 255, 255);">
+            阳光厅、球类活动室、室外健身场、小公园、长廊庭
+        </span>
+			</p>
+		</div>
+
+		<div>
+
+			<div class="container">
+				<ul class="proList list-unstyled row">
+
+					<li class="col-xs-12 col-sm-12 col-md-6 wow fadeInUp animated" data-wow-delay="0s" style="visibility: visible; animation-delay: 0s; animation-name: fadeInUp;">
+						<a href="facade.html">
+							<div class="box3Img">
+								<div class="row">
+									<div class="col-xs-6 col-sm-6 box3Img1">
+										<img src="img/xingongyu/changlan.JPG" class="img-responsive">
+									</div>
+									<div class="col-xs-6 col-sm-6 box3Img2">
+										<img src="img/xingongyu/11.JPG" class="img-responsive">
+									</div>
+								</div>
+								<div class="box3LineBg"><i class="box3Line"></i></div>
+								<div class="box3Detail">环境舒适</div>
+							</div>
+							<div class="box3Text">
+								<h3 class="box3Name ellipsis">新院落外观</h3>
+								<p class="ellipsis">带着古典气息的长廊以及小巧美观的喷泉洋溢着是更为安心的气息...</p>
+							</div>
+						</a>
+					</li>
+
+					<li class="col-xs-12 col-sm-12 col-md-6 wow fadeInUp animated" data-wow-delay="0.05s" style="visibility: visible; animation-delay: 0.05s; animation-name: fadeInUp;">
+						<a href="yule.html">
+							<div class="box3Img">
+								<div class="row">
+									<div class="col-xs-6 col-sm-6 box3Img1">
+										<img src="img/xingongyu/fangjian.JPG" class="img-responsive">
+									</div>
+									<div class="col-xs-6 col-sm-6 box3Img2">
+										<img src="img/xingongyu/21.JPG" class="img-responsive">
+									</div>
+								</div>
+								<div class="box3LineBg"><i class="box3Line"></i></div>
+								<div class="box3Detail">房间</div>
+							</div>
+							<div class="box3Text">
+								<h3 class="box3Name ellipsis">住房中心 </h3>
+								<p class="ellipsis">整个房间的布局以暖色为基调，家具都有配套，给人温暖的感觉</p>
+							</div>
+						</a>
+					</li>
+					<p>&nbsp;</p>
+					<p>&nbsp;</p>
+					<p>&nbsp;</p>
+					<li class="col-xs-12 col-sm-12 col-md-6 wow fadeInUp animated" data-wow-delay="0.10s" style="visibility: visible; animation-delay: 0.10s; animation-name: fadeInUp;">
+						<a href="recereation.html">
+							<div class="box3Img">
+								<div class="row">
+									<div class="col-xs-6 col-sm-6 box3Img1">
+										<img src="img/xingongyu/shiwaihuo.JPG" class="img-responsive">
+									</div>
+									<div class="col-xs-6 col-sm-6 box3Img2">
+										<img src="img/xingongyu/qiulei.JPG" class="img-responsive">
+									</div>
+								</div>
+								<div class="box3LineBg"><i class="box3Line"></i></div>
+								<div class="box3Detail">提供各种娱乐设施</div>
+							</div>
+							<div class="box3Text">
+								<h3 class="box3Name ellipsis">养护中心</h3>
+								<p class="ellipsis">给老人提供多种室内外活动</p>
+							</div>
+						</a>
+					</li>
+
+					<li class="col-xs-12 col-sm-12 col-md-6 wow fadeInUp animated" data-wow-delay="0.15s" style="visibility: visible; animation-delay: 0.15s; animation-name: fadeInUp;">
+						<a href="waiguan.html">
+							<div class="box3Img">
+								<div class="row">
+									<div class="col-xs-6 col-sm-6 box3Img1">
+										<img src="img/xingongyu/waiguan.JPG" class="img-responsive">
+									</div>
+									<div class="col-xs-6 col-sm-6 box3Img2">
+										<img src="img/xingongyu/yangguang.JPG" class="img-responsive">
+									</div>
+								</div>
+								<div class="box3LineBg"><i class="box3Line"></i></div>
+								<div class="box3Detail">房内外对比</div>
+							</div>
+							<div class="box3Text">
+								<h3 class="box3Name ellipsis">旧楼改造</h3>
+								<p class="ellipsis">有充足的阳光，屋内外都是暖色的。</p>
+							</div>
+						</a>
+					</li>
+
+				</ul>
+			</div>
+		</div>
+		<!--	end yang  -->
+		<footer class="footerBg">
+        <div class="footTop">
+            <div class="boxWrap">
+                <div class="footTopCon">
+                    <div class="footRig">
+                        <div class="footLogo">
+                            <img src="img/logo.jpg" dclass="img-responsive">
+                        </div>
+                        <div class="footRigCen">
+                            <ul class="followus">
+                                <li><a href="#" onclick="return false;"><i class="iconfont icon-qq"></i></a></li>
+                                <li><a href="#" onclick="return false;"><i class="iconfont icon-xinlang"></i></a></li>
+                                <li><a href="#" onclick="return false;"><i class="iconfont icon-weixin"></i></a></li>
+                            </ul>
+                            <p class="fTel">02223913420|02224520225</p>
+                        </div>
+                        <p>南开区体育中心街卫津南路48号</p>
+                    </div>
+                    <div class="footLef">
+                        <ul class="footLefLink">
+                            <li>
+                                <h3><a href="../travel/travel.html" target="_self" class="ellipsis">疗养服务</a></h3>
+                                <div class="footLi">
+                                    <p><a href="../travel/travel.html" target="_self" class="ellipsis">旅居疗养</a></p>
+                                    <p><a href="../activity/index.html" target="_self" class="ellipsis">活力社区</a></p>
+                                    <p><a href="../product/pro-jiankangjiance.html" target="_self" class="ellipsis">居家康复</a></p>
+                                    <p><a href="../product/pro-shuhou.html" target="_self" class="ellipsis">养生康复</a></p>
+                                </div>
+                            </li>
+                            <li>
+                                <h3><a href="../news/news.html" target="_self" class="ellipsis">新闻动态</a></h3>
+                                <div class="footLi">
+                                    <p><a href="../news/news.html" target="_self" class="ellipsis">新闻中心</a></p>
+                                    <p><a href="../news/news-self.html" target="_self" class="ellipsis">本院动态</a></p>
+                                </div>
+                            </li>
+                            <li>
+                                <h3><a href="home.html" target="_self" class="ellipsis">老年公寓</a></h3>
+                                <div class="footLi">
+                                    <p><a href="home.html" target="_self" class="ellipsis">新院落</a></p>
+                                    <p><a href="server.html" target="_self" class="ellipsis">服务宗旨</a></p>
+                                </div>
+                            </li>
+                            <li>
+                                <h3><a href="../contact/index.html" target="_self" class="ellipsis">联系我们</a></h3>
+                                <div class="footLi">
+                                    <p><a href="../contact/index.html" target="_self" class="ellipsis">联系方式</a></p>
+                                </div>
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="clear"></div>
+                </div>
+            </div>
+        </div>
+        <div class="footBot">
+            <p>东方标准2018 大前端 实训两周 效果展示</p>
+        </div>
+    </footer>
+
+    <!--返回顶部-->
+    <div class="xiangshang" id="xiangshang" title="返回顶部"></div>
+    <!--登录-->
+    <div id="mymodal" class="modal fade"  tabindex="-1">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+                    <h4 class="modal-title text-center">用户登录</h4>
+                </div>
+                <div class="modal-body">
+                    <form role="form" name="loginForm">
+                        <div class="form-group">
+                            <label for="uname">用户名</label>
+                            <div class="input-group">
+                                <span class="input-group-addon"><span class="glyphicon glyphicon-user"></span></span>
+                                <input type="text" class="form-control" id="uname" name="uname" placeholder="请输入用户名" required/>
+                            </div>
+                        </div>
+                        <div class="form-group">
+                            <label for="upass">密码</label>
+                            <div class="input-group">
+                                <span class="input-group-addon" id="basic-addon2"><span class="glyphicon glyphicon-asterisk"></span></span>
+                                <input type="password" class="form-control" id="upass" name="upass" placeholder="请输入密码" required/>
+                            </div>
+                        </div>
+                        <div class="form-button-group">
+                            <button type="button" class="btn btn-primary btn-block" id="login1" disabled="disabled">登录</button>
+                        </div>
+                    </form>
+                </div>
+            </div><!-- /.modal-content -->
+        </div><!-- /.modal-dialog -->
+    </div><!-- /.modal -->
+    <!--注册-->
+    <div id="mymodal1" class="modal fade"  tabindex="-1">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+                    <h4 class="modal-title text-center">用户注册</h4>
+                </div>
+                <div class="modal-body">
+                    <form role="form" name="registerForm">
+                        <div class="form-group">
+                            <label for="uname1">用户名</label>
+                            <div class="input-group">
+                                <span class="input-group-addon"><span class="glyphicon glyphicon-user"></span></span>
+                                <input type="text" class="form-control" id="uname1" name="uname1" placeholder="请输入用户名" autocomplete="off"/>
+                            </div>
+                        </div>
+                        <div class="form-group">
+                            <label for="upass1">密码</label>
+                            <div class="input-group">
+                                <span class="input-group-addon"><span class="glyphicon glyphicon-asterisk"></span></span>
+                                <input type="password" class="form-control" id="upass1" name="upass1" autocomplete="off" placeholder="请输入密码"/>
+                            </div>
+                        </div>
+                        <!--has-success   has-error-->
+                        <div class="form-group">
+                            <label for="passConfirm">确认密码</label>
+                            <div class="input-group">
+                                <span class="input-group-addon"><span class="glyphicon glyphicon-asterisk"></span></span>
+                                <input type="password" class="form-control" id="passConfirm" name="passConfirm" autocomplete="off" placeholder="请再次输入密码"/>
+                            </div>
+                        </div>
+                        <div class="form-group">
+                            <label for="email">邮箱</label>
+                            <div class="input-group">
+                                <span class="input-group-addon"><span class="glyphicon glyphicon-envelope"></span></span>
+                                <input type="email" class="form-control" id="email" name="email" autocomplete="off" placeholder="请输入邮箱"/>
+                            </div>
+                        </div>
+                        <div class="form-button-group">
+                            <button type="button" class="btn btn-primary btn-block" id="register1" disabled="disabled">注册</button>
+                        </div>
+                    </form>
+                </div>
+            </div><!-- /.modal-content -->
+        </div><!-- /.modal-dialog -->
+    </div><!-- /.modal -->
+    <script src="../../js/main.js"></script>
+</body>
+</html>
